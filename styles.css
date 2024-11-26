@@ -1,16 +1,36 @@
 :root {
+    /* fonts */
     --primary-text-font: Consolas, monaco, monospace;
     --secondary-text-font: Arial, Helvetica, sans-serif;
+
+    /* bg-colors */
+    --bg-primary-color: #0F094B;
+    --bg-secondary-color: #351377;
+    --bg-third-color: #FF00BF;
+    --bg-fourth-color: #193A79;
+
+    /* box-shadow */
+    --box-shadow: 0 0 9px 8px #4000FF;
 }
 
 body {
     margin: 0;
     background-color: #323047;
+    color: white;
 }
 
+/* Flex Container CSS */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:12px;
+}
+
+/* Header Section */
 .top-header {
-    background-color: #0F094B;
-    box-shadow: 0 0 9px 8px #4000FF;
+    background-color: var(--bg-primary-color);
+    box-shadow: var(--box-shadow);
     border-radius: 25px;
     color: white;
     padding: 12px;
@@ -19,4 +39,14 @@ body {
     font-family: var(--primary-text-font);
     font-size: 24px;
 
+}
+
+/* Process Container Section */
+.process-container {
+    background-color: #351377;
+    box-shadow: var(--box-shadow);
+    border: 4px solid black;
+    border-radius: 25px;
+    padding: 12px;
+    margin: 12px;
 }
