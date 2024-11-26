@@ -1,0 +1,22 @@
+:root {
+    --primary-text-font: Consolas, monaco, monospace;
+    --secondary-text-font: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #323047;
+}
+
+.top-header {
+    background-color: #0F094B;
+    box-shadow: 0 0 9px 8px #4000FF;
+    border-radius: 25px;
+    color: white;
+    padding: 12px;
+    margin: 12px;
+    text-align: center;
+    font-family: var(--primary-text-font);
+    font-size: 24px;
+
+}
