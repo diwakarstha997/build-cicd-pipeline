@@ -26,7 +26,7 @@
                 </div>
 
                 <div class="process-primary-body">
-                    <!-- Process Secondary Card 1 : Setup Local Repo -->
+                    <!-- Git - Process Secondary Card 1 : Setup Local Repo -->
                     <div class="process-secondary-card">
                         <div class="process-secondary-header">
                             <p>+ Setting Up Local Project</p>
@@ -53,7 +53,7 @@
                         </div>
                     </div>
 
-                    <!-- Process Secondary Card 2 : Setup Remote Origin, First Commit and push-->
+                    <!-- Git - Process Secondary Card 2 : Setup Remote Origin, First Commit and push-->
                     <div class="process-secondary-card">
                         <div class="process-secondary-header">
                             <p>+ Set Up Origin, Commit and Push</p>
@@ -72,6 +72,30 @@
                                 </li>
                                 <li>
                                     git push -u origin main (push the commits to the connected GitHub repo)
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!-- Git - Process Secondary Card 3 : Create New Feature Branch, Commit and push the branch-->
+                    <div class="process-secondary-card">
+                        <div class="process-secondary-header">
+                            <p>+ Create Feature Branch, Commit and Push</p>
+                        </div>
+
+                        <div class="process-secondary-body">
+                            <ol>
+                                <li>
+                                    git checkout -b &lt;feature-branch-name&gt; (Creates New branch)
+                                </li>
+                                <li>
+                                    git add . (Adds all the changes to staging)
+                                </li>
+                                <li>
+                                    git commit -m "Add new feature" (Commits all the changes added in staging area)
+                                </li>
+                                <li>
+                                    git push origin &lt;feature-branch-name&gt; (push the commits to the connected GitHub repo new branch)
                                 </li>
                             </ol>
                         </div>
