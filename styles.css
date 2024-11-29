@@ -100,3 +100,68 @@ body {
     background-color: var(--bg-fourth-color);
     padding: 6px;
 }
+
+
+/* Mobile View Only */
+@media (max-width: 1150px) {
+    /* Process Container Section */
+    .process-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Process Primary Card */
+    .process-primary-card {
+        display: contents;
+    }
+    
+    .process-primary-header {
+        display: none;
+    }
+    
+    .process-primary-body {
+        display: contents;
+        background-color: none;
+        border: none;
+        border-radius: none;
+        padding: 0;
+    }
+    
+    /* Process Secondary Card */
+    .process-secondary-card-invisible {
+        display: none;
+    }
+    
+    .process-outline-box {
+        display: none;
+    }
+
+    /* Grand Child order control */
+    .git-card-1 {
+        order: 1;
+    }
+    
+    .git-card-2 {
+        order: 3;
+    }
+    
+    .git-card-3 {
+        order: 5;
+    }
+    
+    .github-card-1 {
+        order: 2;
+    }
+    
+    .github-card-2 {
+        order: 6;
+    }
+    
+    .vercel-card-1 {
+        order: 4;
+    }
+    
+    .vercel-card-2 {
+        order: 7;
+    }
+}
