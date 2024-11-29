@@ -49,6 +49,17 @@ body {
     border-radius: 25px;
     padding: 12px;
     margin: 12px;
+
+    position: relative;
+}
+
+.process-outline-box {
+    border: 8px dotted red;
+    position: absolute;
+    top: 1055px;
+
+    width: 97.5%;
+    height: 720px;
 }
 
 .process-grid-container {
